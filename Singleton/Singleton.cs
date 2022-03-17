@@ -8,6 +8,7 @@ namespace Singleton
 {
     public class Singleton
     {
+        //
         private static Singleton instance = null;
         public string mensaje = "";
 
