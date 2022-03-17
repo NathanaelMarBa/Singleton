@@ -10,6 +10,9 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Singleton.Instance.mensaje);
+            Console.WriteLine(Singleton.Instance.mensaje);
+            Console.ReadKey();
         }
     }
 }
